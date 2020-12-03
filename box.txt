@@ -1,0 +1,19 @@
+LeftBox = createSprite(300, 610, 20, 100);
+  LeftBox.shapeColor = color(255, 0, 0);
+
+  LeftBody = Bodies.rectangle(300, 610, 20, 100, options);
+  var RightBox, CenterBox, LeftBox, RightBody, LeftBody, CenterBody;
+
+World.add(world, LeftBody);
+
+  CenterBox = createSprite(400, 650, 200, 20);
+  CenterBox.shapeColor = color(255, 0, 0);
+
+  CenterBody = Bodies.rectangle(400, 635, 200, 20, options);
+  World.add(world, CenterBody);
+
+  RightBox = createSprite(500, 610, 20, 100);
+  RightBox.shapeColor = color(255, 0, 0);
+
+  RightBody = Bodies.rectangle(500, 610, 20, 100, options);
+  World.add(world, RightBody);
